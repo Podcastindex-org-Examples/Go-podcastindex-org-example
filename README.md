@@ -33,3 +33,7 @@ if you need support regarding this example, you want to give feedback or you hav
 
 proof that it works on the example of virtual Linux for iPad+iPhone - https://ish.app - running in iPad:
 
+<img alt="podcastingindex.org example in Swift" src="https://raw.githubusercontent.com/ComicStrip/Go-podcastindex-org-example/main/EBB0F295-6A9D-4151-83AD-C46C41279391.png">
+
+
+
