@@ -32,7 +32,7 @@ func main() {
 	var query string = "bastiat"		
 	url := "https://api.podcastindex.org/api/1.0/search/byterm?q="+query
 
-	spaceClient := http.Client{
+	podClient := http.Client{
 		Timeout: time.Second * 33, 
 	}
 
@@ -45,7 +45,7 @@ func main() {
 	req.Header.Set("X-Auth-Key", apiKey)
 	req.Header.Set("Authorization", hashString)
 
-	res, getErr := spaceClient.Do(req)
+	res, getErr := podClient.Do(req)
 	if getErr != nil {
 		log.Fatal(getErr)
 	}
