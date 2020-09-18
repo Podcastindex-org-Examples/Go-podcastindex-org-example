@@ -15,7 +15,7 @@ how to use (on mac and PC and Linux)
     var apiKey string = "ABC";
     var apiSecret string = "ABC";
 ```
-4) run (in case you use OpenJDK):
+4) run:
 ```
     go run PodcastIndex.go
 ```
